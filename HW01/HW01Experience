@@ -1,6 +1,9 @@
 Ziang Lin
 Describe your experience with this assignment
 
+the URL of the GitHub repo: https://github.com/EricLin24/SSW567/tree/master/HW01
+
+
 1. What challenges did you encounter with this assignment, if any?
    I didn't consider about the condition if a triangle belongs to multiple types, thus I used more if sentence to handle
    this issue.
