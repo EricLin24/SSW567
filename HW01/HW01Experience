@@ -1,0 +1,22 @@
+Ziang Lin
+Describe your experience with this assignment
+
+1. What challenges did you encounter with this assignment, if any?
+   I didn't consider about the condition if a triangle belongs to multiple types, thus I used more if sentence to handle
+   this issue.
+
+2. What did you think about the requirements specification for this assignment?
+   First, all the parameters entered by users should be check if valid, because the input values are the length of
+   triangle sizes.(Check if values are numeral)
+   Check if the three sizes provided can form a triangle.
+   Check the feature of the formed triangle and match to the 4 types. (Can match to multiple types)
+   The result should be (only) a string and show the type(s) of the formed triangle.
+
+3. What challenges did you encounter with the tools?
+   No too much, just spend a few time on reviewing unittest. Don't know why the IDE warns me that I don't have PyTest
+   when I just use UnitTest.
+
+4. Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
+   I used 12 test cases to test the result of the program which cover all the situations. For each of them, I wrote 2
+   cases. I didn't put the input check and triangle classification together and my function of input check needs
+   parameters given by user(keyboard). Because it's easier to maintain and user-friendly.
