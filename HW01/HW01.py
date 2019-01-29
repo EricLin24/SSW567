@@ -14,7 +14,8 @@ def classify_triangle(a, b, c):
             return "It's an isosceles and right triangle."
         return "It's an isosceles triangle."
     if a != b and a != c and b != c:
-        if a*a + b*b == c*c or a*a + c*c == b*b or b*b + c*c == a*a:
+        if round(a * a + b * b, 2) == round(c * c, 2) or round(a * a + c * c, 2) == round(b * b, 2) or round(
+                b * b + c * c, 2) == round(a * a, 2):
             return "It's a right and scalene triangle."
         return "It's a scalene triangle."
 
